@@ -52,3 +52,8 @@ if __name__ == "__main__":
     print(sol.getConcatenation_1(nums), ": Using 2 Loops")
     print(sol.getConcatenation_2(nums), ": Using 1 Loops")
     print(sol.getConcatenation_3(nums), ": Using list concatenation")
+
+'''
+Time Complexity: O(n)
+Space Complexity: O(n)
+'''
