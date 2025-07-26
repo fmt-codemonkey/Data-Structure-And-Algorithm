@@ -21,6 +21,10 @@ from typing import List
 
 class Solution:
     # Approach 1: Using 2 for loop
+    '''
+    Time Complexity: O(n)
+    Space Complexity: O(n)
+    '''
     def getConcatenation_1(self, nums: List[int]) -> List[int]:
         ans = []
         for i in range(2):
@@ -30,6 +34,10 @@ class Solution:
         return ans
     
     # Approach 2: Using 1 for loop
+    '''
+    Time Complexity: O(n)
+    Space Complexity: O(n)
+    '''
     def getConcatenation_2(self, nums: List[int]) -> List[int]:
         nums_length = len(nums)
         ans = [0] * (2 * nums_length)
@@ -40,6 +48,10 @@ class Solution:
         return ans
     
     # Approach3: Using list concatenation
+    '''
+    Time Complexity: O(n)
+    Space Complexity: O(n)
+    '''
     def getConcatenation_3(self, nums: List[int]) -> List[int]:
         return nums + nums
 
@@ -52,8 +64,3 @@ if __name__ == "__main__":
     print(sol.getConcatenation_1(nums), ": Using 2 Loops")
     print(sol.getConcatenation_2(nums), ": Using 1 Loops")
     print(sol.getConcatenation_3(nums), ": Using list concatenation")
-
-'''
-Time Complexity: O(n)
-Space Complexity: O(n)
-'''
