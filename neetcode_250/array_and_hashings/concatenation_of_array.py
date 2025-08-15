@@ -4,8 +4,11 @@ Pattern: Array building
 
 Idea: 
 - Return the input twice in order: nums + nums (or nums * 2).
-- Time: O(n) because Python must copy 'nums' twice into a new list.
-- Space: O(n) for output (2n length).
+
+Time:
+- O(n) because Python must copy 'nums' twice into a new list.
+Space:
+- O(n) for output (2n length).
 
 Edge cases:
 - n = 1 (eg., [5] -> [5, 5])
