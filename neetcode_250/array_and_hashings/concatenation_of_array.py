@@ -7,6 +7,7 @@ Idea:
 
 Time:
 - O(n) because Python must copy 'nums' twice into a new list.
+
 Space:
 - O(n) for output (2n length).
 
