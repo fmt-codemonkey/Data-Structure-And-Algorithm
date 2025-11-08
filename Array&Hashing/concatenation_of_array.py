@@ -52,7 +52,7 @@ class Solution:
 
 def test_solution():
     """
-    Test cases for array concatenation.
+        Test cases for array concatenation.
     """
     solution = Solution()
 
