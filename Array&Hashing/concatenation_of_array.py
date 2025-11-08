@@ -30,7 +30,7 @@ class Solution:
         """
             Concatenate the array with itself by appending all elements again.
 
-            Apporach 1: 
+            Approach 1: 
                 I will extend the array with itself. Python allow us to concatenate the list using the + operator.
 
             Args: 
