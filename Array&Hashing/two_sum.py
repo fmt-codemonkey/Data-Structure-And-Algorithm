@@ -1,5 +1,5 @@
 """
-    Given an array of integeres `nums` and an integer `target`, return the indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.
+    4. Given an array of integeres `nums` and an integer `target`, return the indices `i` and `j` such that `nums[i] + nums[j] == target` and `i != j`.
 
     You may assume that every input has exactly one pair of indices `i` and `j` that satisfy the condition. 
 
